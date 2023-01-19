@@ -1,0 +1,9 @@
+SELECT * FROM EMPLOYEE WHERE empsal>20000 and empsal<45000;
+
+SELECT * FROM EMPLOYEE WHERE empname LIKE 'A%';
+
+SELECT * FROM Department WHERE deptloc = 'Chennai';
+
+SELECT * FROM Department WHERE deptloc = 'Chennai' OR 'Hyderabad';
+
+SELECT * FROM Department WHERE deptloc != 'Chennai' AND deptloc != 'Hyderabad';
